@@ -1,0 +1,83 @@
+{% extends 'base.html'%}
+{% load static %} 
+{% block content %}  
+
+
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img_container">
+            <div class="img-box b1">
+              <img src="{% static 'images/g.jpg' %}" alt="">
+            </div>
+            <div class="img-box b2">
+              <img src="{% static 'images/g.jpg' %}" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h2>
+              About
+            </h2>
+            <p>
+              I have been interested in the field of computers since I was 9 years old and I have been studying in this direction. ISIFAT training center has all directions and conditions. I also recommend ISIFAT training center to you.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+
+
+<!-- info section -->
+<section class="info_section layout_padding2">
+  <div class="container">
+    <div class="info_logo">
+      <h2>
+        Site
+      </h2>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3`">
+        <div class="info_contact">
+          <h5>
+            About
+          </h5>
+          <div>
+            <div class="img-box">
+              <img src="{% static 'images/location-white.png' %}" width="18px" alt="">
+            </div>
+            <p>
+              Address:Navoi city, government, post office
+            </p>
+          </div>
+          <div>
+            <div class="img-box">
+              <img src="{% static 'images/telephone-white.png' %}" width="12px" alt="">
+            </div>
+            <p>
+              +998 93-170-13-70
+            </p>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- end info_section -->
+
+      {% endblock content %}
